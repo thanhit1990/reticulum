@@ -1,0 +1,200 @@
+repo_name: thanhit1990/reticulum
+report_id: c88b193e1f6ae132ba89a481e096f33d
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-19T05:20:58+00:00'
+requested_by: thanhit1990
+provider: github
+branch: master
+detected_tools_count: 17
+tools:
+- name: Elixir
+  description: Dynamic, functional language designed for building scalable and maintainable
+    applications
+  website_url: http://elixir-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1974/drop.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: mix.exs
+  last_updated_by: Kevin Lee
+  last_updated_on: 2017-09-28 21:32:09.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: mix.exs
+  last_updated_by: Kevin Lee
+  last_updated_on: 2017-09-28 21:32:09.000000000 Z
+- name: Phoenix Framework
+  description: Most web frameworks make you choose between speed and a productive
+    environment. Phoenix gives you both.
+  website_url: http://www.phoenixframework.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/3262/-s9uoLIN.png
+  detection_source: mix.exs
+  last_updated_by: Bryan Enders
+  last_updated_on: 2023-01-27 19:49:46.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source: mix.exs
+  last_updated_by: Kevin Lee
+  last_updated_on: 2017-09-28 21:32:09.000000000 Z
+- name: Bamboo
+  description: Tie automated builds, tests, and releases together in a single workflow
+  website_url: https://www.atlassian.com/software/bamboo
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/1729/bamboo.png
+  detection_source: mix.exs
+  last_updated_by: Greg Fodor
+  last_updated_on: 2019-09-05 01:39:24.000000000 Z
+- name: Cowboy
+  description: 'Small, fast, modular HTTP server written in Erlang. '
+  website_url: https://github.com/ninenines/cowboy
+  version: '2.9'
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/2738/1166740.png
+  detection_source_url: https://github.com/thanhit1990/reticulum/blob/master/mix.exs
+  detection_source: mix.exs
+  last_updated_by: Geng Tan
+  last_updated_on: 2022-03-25 14:07:57.000000000 Z
+- name: Credo
+  description: A static code analysis tool for the Elixir language
+  website_url: http://credo-ci.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5767/logo-462574d6fafd52114ceb5556a09cdf5a.png
+  detection_source: mix.exs
+  last_updated_by: Greg Fodor
+  last_updated_on: 2019-09-05 01:39:24.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/hc-pkgcaller.yml"
+  last_updated_by: Brandon Patterson
+  last_updated_on: 2023-01-05 16:14:45.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: mix.exs
+  last_updated_by: Kevin Lee
+  last_updated_on: 2017-09-28 21:32:09.000000000 Z
+- name: Sentry
+  description: 'See performance issues, fix errors faster, and optimize code health. '
+  website_url: https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile
+  version: '7.0'
+  open_source: true
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png
+  detection_source_url: https://github.com/thanhit1990/reticulum/blob/master/mix.exs
+  detection_source: mix.exs
+  last_updated_by: Bryan Enders
+  last_updated_on: 2023-01-24 16:56:12.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: mix.exs
+  last_updated_by: Kevin Lee
+  last_updated_on: 2017-09-28 21:32:09.000000000 Z
+- name: Absinthe
+  description: 'The #GraphQL toolkit for #elixirlang'
+  website_url: http://absinthe-graphql.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10753/7e-Phm9y_normal.jpg
+  detection_source: mix.exs
+  last_updated_by: Bryan Enders
+  last_updated_on: 2023-01-20 14:34:10.000000000 Z
+- name: Guardian
+  description: Remove the OAuth dance with one request
+  website_url: http://guardianjs.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source: mix.exs
+  last_updated_by: Bryan Enders
+  last_updated_on: 2023-01-27 16:49:00.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: ecto
+  website_url: https://hexdocs.pm/ecto/Ecto.html
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4397/no-img-open-source.png
+  detection_source: mix.exs
+  last_updated_by: Bryan Enders
+  last_updated_on: 2023-01-19 21:57:57.000000000 Z
